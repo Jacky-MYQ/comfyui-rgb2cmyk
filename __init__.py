@@ -1,0 +1,11 @@
+from .rgb2cmyk import RGB2CMYK #加载类
+
+NODE_CLASS_MAPPINGS = {
+    "RGB2CMYK": RGB2CMYK, 
+}
+NODE_DISPLAY_NAME_MAPPINGS = {
+    "RGB2CMYK": "Save Image to Tif", 
+}
+
+
+__all__ = ["NODE_CLASS_MAPPINGS", "NODE_DISPLAY_NAME_MAPPINGS"] 
