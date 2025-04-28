@@ -1,7 +1,7 @@
 [project]
 name = "rgb2cmyk"
 description = "RGB to CMYK (save as tif)"
-version = "1.0.0"
+version = "0.1.0"
 license = {file = "LICENSE"}
 
 [project.urls]
@@ -9,6 +9,6 @@ Repository = "https://github.com/Jacky-MYQ/comfyui-rgb2cmyk"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
-PublisherId = ""
+PublisherId = "Jacky-MYQ"
 DisplayName = "comfyui-rgb2cmyk"
 Icon = ""
